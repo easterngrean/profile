@@ -93,7 +93,7 @@ a:hover {
   border-width: 1px;
   border-radius: 5px;
   font-size: 12px;
-    height: 1.5rem;
+  height: 1.5rem;
   border-color: var(--green);
 }
 
@@ -184,7 +184,7 @@ a:hover {
 }
 
 .project-tile, .project-tile-2, .project-tile-3, {
-   border: solid;
+  border: solid;
   border-color: var(--green);
   border-radius: 10px;
   color: var(--green);
