@@ -1,0 +1,238 @@
+* {
+  font-family: oxygen, sans-serif;
+    scroll-snap-type: y proximity;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --green: #0C8558;
+  --brown: #C54E37;
+  --off-white: #FAF9F6;
+  --blue: #0075da;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: fixed;  
+  width: 100vw;
+  background-color: var(--green);
+  height: 45px;
+  z-index: 1;
+}
+
+li {
+  float: right;
+  list-style-type: none;
+}
+
+li:nth-last-of-type(3) {
+  margin-right: 17px;
+} 
+
+li a {
+  padding: 13.25px 16px;  
+  color: white;
+  display: block;
+}
+
+#about a {
+  color: var(--off-white);
+}
+
+li:hover {
+  background-color: var(--blue);
+}
+
+a:hover {
+  background-color: var(--blue);
+}
+
+
+
+#logo {
+  width: 50px;
+  position: absolute;
+  top: 5px;
+  margin-left: 10%;
+  padding: 0;
+}
+
+.background {
+  opacity: 80%; 
+}
+
+#sign-up, #about, #work {
+  scroll-snap-align: start;
+} 
+
+/* ---------------SIGN UP PAGE (#1)------------- */
+
+#welcome-section {
+  height: 100vh;
+  background-color: var(--off-white);
+  display: block;
+}
+
+#email {
+  color: var(--green);
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 12px;
+    height: 1.5rem;
+  border-color: var(--green);
+}
+
+#welcome-section-content {
+  color: var(--green);
+  justify-content: center;
+  text-align: center;
+  padding-top: 175px;
+}
+
+.title {
+   font-size: 64px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+#button {
+  color: var(--green);
+  margin-left: 5px;
+  background-color: var(--off-white);
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: var(--blue);
+  height: 1.5rem;
+}
+
+/* -----------ABOUT PAGE (#2) -----------------*/
+#about {
+  height: 100vh;
+  background-color: var(--green);
+}
+
+#about-content {
+  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 150px;
+}
+
+@media (max-width: 56.25em){#about-content {
+    grid-template-columns: 1fr; 
+  }
+}
+
+#about {
+  @media (max-width: 56.25em){
+    height: 150vh;  
+  }
+}
+
+.blurb {
+  color: var(--off-white);
+  padding: 10px;
+  font-size: 1.12rem;
+  text-align: justify;
+  text-align-last: left;
+  
+}
+
+#future {
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  border: solid;
+  border-color: var(--off-white);
+}
+
+
+/* ---------------- WORK PAGE (#3)-------------- */
+
+#work {
+  height: 100vh;
+  background-color: var(--off-white);
+  display: flex;
+}
+
+#projects {
+  margin: 200px 100px;
+}
+
+#projects {
+  @media (min-width: 56.25em){
+    display: flex;  
+  }
+}
+
+.project-tile, .project-tile-2, .project-tile-3, {
+   border: solid;
+  border-color: var(--green);
+  border-radius: 10px;
+  color: var(--green);
+  margin: 10px 10px;
+  padding: 10px;
+  height: auto;
+  text-align: justify;
+  flex: 1;
+}
+
+#project-1 {
+
+}
+
+#project-2 {
+ 
+}
+
+#project-3 {
+ 
+}
+
+/*--------------footer-----------------*/
+
+footer {
+  width: 100%;
+  background-color: var(--blue);
+  height: 50px;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  display: block;
+}
+
+footer {
+  @media (max-width: 56.25em){
+    display: none;  
+  }
+}
+
+footer > p > a {
+  color: var(--off-white);
+     float: right;
+  margin: 0 50px;
+  display: block;
+  padding: 13.25px 16px; 
+}
+
+p > a:hover {
+  background-color: var(--green);
+}
