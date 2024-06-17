@@ -180,7 +180,7 @@ a:hover {
   padding: 150px;
 }
 
-@media (min-width: 56.25em) { 
+@media (max-width: 56.25em) { 
   #projects {
     grid-template-columns: 1fr; 
   }
