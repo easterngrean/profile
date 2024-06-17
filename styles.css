@@ -168,22 +168,6 @@ a:hover {
 
 /* ---------------- WORK PAGE (#3)-------------- */
 
-#work {
-  height: 100vh;
-  background-color: var(--off-white);
-
-}
-
-#projects {
-  margin: 200px 100px;
-  background-color: blue;
-}
-
-@media (min-width: 56.25em) { 
-  #projects {
-    display: flex;  
-  }
-}
 
 
 
