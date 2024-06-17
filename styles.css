@@ -171,7 +171,7 @@ a:hover {
 #work {
   height: 100vh;
   background-color: var(--off-white);
-  display: flex;
+
 }
 
 #projects {
