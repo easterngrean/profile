@@ -134,6 +134,9 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 150px;
+  border: solid;
+  border-color: black;
+  background-color: blue;
 }
 
 @media (max-width: 56.25em){#about-content {
