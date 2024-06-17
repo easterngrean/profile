@@ -168,7 +168,34 @@ a:hover {
 
 /* ---------------- WORK PAGE (#3)-------------- */
 
+#work {
+  height: 100vh;
+  background-color: var(--off-white);
 
+}
+
+#projects {
+  margin: 200px 100px;
+  background-color: blue;
+}
+
+@media (min-width: 56.25em) { 
+  #projects {
+    display: flex;  
+  }
+}
+
+.project-tile, .project-tile-2, .project-tile-3, {
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  color: var(--green);
+  margin: 10px 10px;
+  padding: 10px;
+  height: 200px;
+  text-align: justify;
+  flex: 1;
+}
 
 
 
