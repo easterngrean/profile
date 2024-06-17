@@ -176,6 +176,7 @@ a:hover {
 
 #projects {
   margin: 200px 100px;
+  background-color: blue;
 }
 
 @media (min-width: 56.25em) { 
@@ -194,7 +195,7 @@ a:hover {
   height: 200px;
   text-align: justify;
   flex: 1;
-  background-color: blue;
+  
 }
 
 
