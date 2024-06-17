@@ -61,8 +61,6 @@ a:hover {
   background-color: var(--blue);
 }
 
-
-
 #logo {
   width: 50px;
   position: absolute;
@@ -134,9 +132,6 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 150px;
-  border: solid;
-  border-color: black;
-  background-color: blue;
 }
 
 @media (max-width: 56.25em){#about-content {
@@ -156,6 +151,9 @@ a:hover {
   font-size: 1.12rem;
   text-align: justify;
   text-align-last: left;
+  border: solid;
+  border-color: black;
+  background-color: blue;
   
 }
 
