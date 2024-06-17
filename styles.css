@@ -178,8 +178,8 @@ a:hover {
   margin: 200px 100px;
 }
 
-#projects {
-  @media (min-width: 56.25em){
+@media (min-width: 56.25em) { 
+  #projects {
     display: flex;  
   }
 }
