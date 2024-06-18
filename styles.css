@@ -45,7 +45,7 @@ li:nth-last-of-type(3) {
 
 li a {
   padding: 13.25px 16px;  
-  color: white;
+  color: var(--off-white);
   display: block;
 }
 
