@@ -186,7 +186,7 @@ a:hover {
   }
 }
 
-#project-tile, #project-tile-2, #project-tile-3, {
+#project-tile, #project-tile-2, #project-tile-3 {
   border: solid;
   border-color: black;
   border-radius: 10px;
