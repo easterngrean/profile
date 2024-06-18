@@ -75,7 +75,7 @@ a:hover {
 }
 
 #sign-up, #about, #work {
-  scroll-snap-align: start;
+  scroll-snap-align: end;
 } 
 
 /* ---------------SIGN UP PAGE (#1)------------- */
