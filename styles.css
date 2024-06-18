@@ -154,7 +154,7 @@ a:hover {
   text-align-last: left;
   border: solid;
   border-color: var(--off-white);
-  
+  border-rasius: 10px;
 }
 
 #future {
@@ -184,6 +184,9 @@ a:hover {
   #projects {
     grid-template-columns: 1fr; 
   }
+  #work {
+    height: 150vh;  
+  }
 }
 
 #project-tile, #project-tile-2, #project-tile-3 {
@@ -193,7 +196,7 @@ a:hover {
   color: var(--green);
   margin: 10px 10px;
   padding: 10px;
-  height: 200px;
+  height: auto;
   text-align: justify;
 }
 
@@ -211,11 +214,13 @@ footer {
   display: block;
 }
 
+/*
 footer {
   @media (max-width: 56.25em){
     display: none;  
   }
 }
+*/
 
 footer > p > a {
   color: var(--off-white);
