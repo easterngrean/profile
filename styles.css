@@ -154,7 +154,7 @@ a:hover {
   text-align-last: left;
   border: solid;
   border-color: var(--off-white);
-  border-rasius: 10px;
+  border-radius: 10px;
 }
 
 #future {
