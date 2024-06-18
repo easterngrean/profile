@@ -69,13 +69,16 @@ a:hover {
   padding: 0;
 }
 
-
 .background {
   opacity: 80%; 
 }
 
-#sign-up, #about, #work {
+#sign-up, #about {
   scroll-snap-align: end;
+} 
+
+#work {
+  scroll-snap-align: start;
 } 
 
 /* ---------------SIGN UP PAGE (#1)------------- */
@@ -158,6 +161,7 @@ a:hover {
 }
 
 #future {
+  width: 200px;
   height: auto;
   border-radius: 5px;
   border: solid;
