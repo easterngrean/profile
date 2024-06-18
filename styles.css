@@ -69,6 +69,14 @@ a:hover {
   padding: 0;
 }
 
+#navbar a {
+  text-decoration: none; /* Remove default link styles */
+  display: inline-block;  /* Ensure the anchor behaves as an inline element */
+  position: absolute;     /* Position it as the image was previously */
+  top: 5px;               /* Align with previous top position of the image */
+  left: 10%;              /* Align with previous left margin of the image */
+}
+
 .background {
   opacity: 80%; 
 }
@@ -80,7 +88,7 @@ a:hover {
 /* ---------------SIGN UP PAGE (#1)------------- */
 
 #welcome-section {
-  height: 100vh;
+  height: 90vh;
   background-color: var(--off-white);
   display: block;
 }
@@ -123,7 +131,7 @@ a:hover {
 
 /* -----------ABOUT PAGE (#2) -----------------*/
 #about {
-  height: 100vh;
+  height: 90vh;
   background-color: var(--green);
 }
 
@@ -168,7 +176,7 @@ a:hover {
 /* ---------------- WORK PAGE (#3)-------------- */
 
 #work {
-  height: 95vh;
+  height: 90vh;
   background-color: var(--off-white);
 }
 
