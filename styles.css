@@ -81,7 +81,7 @@ a:hover {
 /* ---------------SIGN UP PAGE (#1)------------- */
 
 #welcome-section {
-  height: 90vh;
+  height: 100vh;
   background-color: var(--off-white);
   display: block;
 }
