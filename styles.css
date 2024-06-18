@@ -161,7 +161,7 @@ a:hover {
 }
 
 #future {
-  width: 200px;
+  max-width: 40vw;
   height: auto;
   border-radius: 5px;
   border: solid;
