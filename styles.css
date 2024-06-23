@@ -109,6 +109,8 @@ a:hover {
 .title {
    font-size: 64px;
   margin-bottom: 0;
+   /* Apply animation to the title */
+  animation: colorChange 5s infinite alternate;
 }
 
 .subtitle {
@@ -124,6 +126,22 @@ a:hover {
   border-color: var(--blue);
   height: 1.5rem;
 }
+
+/* Keyframes for color transition */
+@keyframes colorChange {
+    0% {
+        color: #0C8558; /* Starting green shade */
+    }
+    50% {
+        color: #4CAF50; /* Midpoint green shade */
+    }
+    100% {
+        color: #0C8558; /* Ending green shade, same as the start */
+    }
+}
+
+
+
 
 /* -----------ABOUT PAGE (#2) -----------------*/
 #about {
