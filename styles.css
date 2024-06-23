@@ -113,15 +113,6 @@ a:hover {
   animation: colorChange 5s infinite alternate;
 }
 
-.title2 {
-  font-size: 64px;
- margin-bottom: 0;
- margin-top: 0;
-  /* Apply animation to the title */
- animation: colorChange2 5s infinite alternate;
-}
-
-
 .subtitle {
   font-size: 18px;
 }
@@ -148,20 +139,6 @@ a:hover {
         color: #0C8558; /* Ending green shade, same as the start */
     }
 }
-
-/* Keyframes for color transition */
-@keyframes colorChange2 {
-  0% {
-      color: #FF0000; /* Starting green shade */
-  }
-  50% {
-      color: #FF4433; /* Midpoint green shade */
-  }
-  100% {
-      color: #FF0000; /* Ending green shade, same as the start */
-  }
-}
-
 
 
 /* -----------ABOUT PAGE (#2) -----------------*/
