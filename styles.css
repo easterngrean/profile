@@ -116,6 +116,7 @@ a:hover {
 .title2 {
   font-size: 64px;
  margin-bottom: 0;
+ margin-top: 0;
   /* Apply animation to the title */
  animation: colorChange2 5s infinite alternate;
 }
