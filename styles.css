@@ -73,7 +73,7 @@ a:hover {
   opacity: 80%; 
 }
 
-#sign-up, #about {
+#welcome-section, #about {
   scroll-snap-align: end;
 } 
 
