@@ -232,15 +232,16 @@ footer {
   bottom: 0;
   left: 0;
   display: block;
+  /*margin-top: auto;*/
 }
 
-/*
+
 footer {
   @media (max-width: 56.25em){
     display: none;  
   }
 }
-*/
+
 
 footer > p > a {
   color: var(--off-white);
