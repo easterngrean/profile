@@ -110,7 +110,7 @@ a:hover {
    font-size: 64px;
   margin-bottom: 0;
    /* Apply animation to the title */
-  animation: colorChange 2s infinite alternate;
+  animation: colorChange 4s infinite alternate;
 }
 
 .subtitle {
@@ -156,6 +156,7 @@ a:hover {
 
 @media (max-width: 56.25em){#about-content {
     grid-template-columns: 1fr; 
+    font-size: 1rem;
   }
 }
 
